@@ -5,8 +5,8 @@ import Edit from './Edit'
 //TODO Display post or edit, build out methods
 
 class PostContainer extends React.Component {
-  constructor(props) {
-    super(props)
+  constructor() {
+    super()
     this.state = {
       isEditing: false,
     }

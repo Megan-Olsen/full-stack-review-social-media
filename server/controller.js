@@ -1,17 +1,17 @@
 module.exports = {
-  getPosts: (req, res) => {
+  getPosts: async (req, res) => {
     //TODO Get all posts
     
   },
-  addPost: (req, res) => {
+  addPost: async (req, res) => {
     //TODO Create new post
   
   },
-  editPost: (req, res) => {
+  editPost: async (req, res) => {
     //TODO Edit existing post
 
   },
-  deletePost: (req, res) => {
+  deletePost: async (req, res) => {
     //TODO Delete existing post
    
   }
